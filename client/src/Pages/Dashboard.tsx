@@ -23,10 +23,6 @@ export default function Dashboard() {
   }, [codes]);
 
   useEffect(() => {
-    console.log(today)
-  }, [today]);
-
-  useEffect(() => {
     (async () => {
       //get codes
       const [err, body, fn] = await fetcher("/getCodes", "GET", {}, {});
