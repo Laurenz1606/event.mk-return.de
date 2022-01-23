@@ -1,0 +1,9 @@
+{
+  "name": "event",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "cd server && yarn deploy && cd ../client && yarn deploy"
+  }
+}
